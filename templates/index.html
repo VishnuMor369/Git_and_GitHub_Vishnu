@@ -3,28 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit Data</title>
+    <title>To-Do Page</title>
 </head>
 <body>
 
-    <h1>Submit Your Data</h1>
+    <h1>To-Do List</h1>
 
-    <p>Thank you for submitting your data!</p>
-
-    <form action="/submit" method="POST">
-
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+    <form>
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" name="itemName" required>
 
         <br><br>
 
-        <label for="gmail">Email:</label>
-        <input type="email" id="gmail" name="gmail" required>
+        <label for="itemDescription">Item Description:</label>
+        <textarea id="itemDescription" name="itemDescription" required></textarea>
 
         <br><br>
 
         <button type="submit">Submit</button>
-
     </form>
 
 </body>
